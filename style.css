@@ -3,6 +3,7 @@ html {
     scroll-behavior: smooth;
     color: hsl(0, 0%, 100%); 
     font-family: sans-serif;
+    min-width: 350px;
     
 }
 
