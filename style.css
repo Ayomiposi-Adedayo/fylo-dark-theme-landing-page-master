@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
     color: hsl(0, 0%, 100%); 
     font-family: sans-serif;
-    min-width: 350px;
+    display: block;
     
 }
 
@@ -63,9 +63,9 @@ nav {
     
 }
 
-.body{
+.abc{
 border: 1px solid rgb(238, 220, 220);
-width: 100px;
+width: auto;
 height: 500px;    
         
 }
