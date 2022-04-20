@@ -89,6 +89,7 @@ nav {
     max-width: 90%;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 22%; 
 }
 .illustration-img {
     
@@ -125,12 +126,80 @@ button {
     font-weight:600;
     border-radius: 25px;
      padding: 5% 25%;
-     margin-bottom: 10%;
+     margin-bottom: 20%;
      margin-left: auto;
      margin-right: auto;
+     font-size: 1.1rem;
      
     
 }
+
+.container1 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20%;
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+    gap: 50px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+section>div> img {
+        max-width: 100%;
+}
+
+.h2-productive {
+    text-align: left;
+}
+
+.h2-fylo {
+    color: hsl(176, 68%, 64%);
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border: 2px solid hsla(176, 68%, 64%, 0);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    padding: 1%;
+    width: max-content;
+    
+}
+.fylo-link {
+    text-decoration: none;
+    color:  hsl(176, 68%, 64%);
+}
+
+
    
    
     
