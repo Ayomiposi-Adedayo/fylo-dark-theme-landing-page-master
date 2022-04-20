@@ -126,7 +126,7 @@ button {
     color: white;
     font-weight:600;
     border-radius: 30px;
-     padding: 3% 20%;
+     padding: 4% 24%;
      margin-bottom: 20%;
      margin-left: auto;
      margin-right: auto;
@@ -336,7 +336,7 @@ text-align: left;
 
 .email-input {
     border: 1px solid rgba(255, 0, 0, 0);
-    border-radius: 20px;
+    border-radius: 25px;
     height:  46px;
     padding: 0%;
     width: 80%;
@@ -346,7 +346,7 @@ text-align: left;
 .button-input {
         background-color: #339ecc;
         border: 1px solid rgba(255, 0, 0, 0);
-        border-radius: 20px;
+        border-radius: 25px;
         height: 48px;
         width: 80%;
         padding: 0%;
