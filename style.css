@@ -225,6 +225,8 @@ section>div> img {
     padding-bottom: 10%;
     background-color: hsl(219, 30%, 18%);
     margin-bottom: 10%;
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 20px;
 }
 .last-team-box {
     display: flex;
@@ -234,7 +236,7 @@ section>div> img {
     background-color: hsl(219, 30%, 18%);
     margin-bottom: 0%;
     border: 1px solid rgba(255, 0, 0, 0);
-    border-radius: 20%,
+    border-radius: 20px;
 }
     
     
