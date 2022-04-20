@@ -336,9 +336,10 @@ text-align: left;
 
 .email-input {
     border: 1px solid rgba(255, 0, 0, 0);
+    box-sizing: border-box;
     border-radius: 25px;
     height:  46px;
-    padding: 0%;
+    padding: 0% 10%;
     width: 80%;
     margin-bottom: 5%;
 }
