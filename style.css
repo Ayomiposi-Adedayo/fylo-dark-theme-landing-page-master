@@ -302,7 +302,8 @@ text-align: left;
     background-color: hsl(217, 28%, 15%);
     margin-top: 0%;
     margin-bottom: 0%;
-    position: absolute;
+    position: relativel;
+    bottom: -200px;
     
     
 
@@ -359,8 +360,9 @@ text-align: left;
         width: 100%;
         background-color: hsl(216, 53%, 9%);
         margin-bottom: 0%;
-        position: relative;
-        bottom: -2rem;
+
+        /* position: relative;
+        bottom: -2rem; */
         
     }
     
