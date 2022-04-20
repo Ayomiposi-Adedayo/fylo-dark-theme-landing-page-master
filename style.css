@@ -226,7 +226,7 @@ section>div> img {
     background-color: hsl(219, 30%, 18%);
     margin-bottom: 10%;
     border: 1px solid rgba(255, 0, 0, 0);
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .last-team-box {
     display: flex;
@@ -236,7 +236,7 @@ section>div> img {
     background-color: hsl(219, 30%, 18%);
     margin-bottom: 0%;
     border: 1px solid rgba(255, 0, 0, 0);
-    border-radius: 10%;
+    border-radius: 10px;
 }
     
     
@@ -296,7 +296,7 @@ text-align: left;
 
 .early-access {
     border: 1px solid rgba(255, 0, 0, 0);
-    border-radius: 10%;
+    border-radius: 10px;
     margin: auto;
     max-width: 90%;
     display: flex;
