@@ -6,11 +6,16 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-  
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -18,35 +23,51 @@
 <body>
   <header>
     <div class="header-container">
-      <div>
-        <img class="fylo-logo" src="images\logo.svg" alt="fylo logo">
+      <div class="fylo-logo">
+        <img src="images/logo.svg" alt="fylo logo">
       </div>
-      <nav>
-        <ul class="ul-nav ">
-          <li>Features</li>
-          <li>Team</li>
-          <li>Sign In</li>
-        </ul>
-      </nav>
-      
- 
+      <ul  class="header-nav">
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign In</li>
+      </ul>
+    
       
     </div>
   </header>
+  <section class="home-section">
+    <div class="home-container">
+      <div class="illustration-img">
+        <img src="images\illustration-intro.png" alt="illustration-intro">
+      </div>
+      <div>
+        <h1>
+          All your files in one secure location, accessible anywhere.
+        </h1>
+         
+      </div>
+      <p>
+        Fylo stores all your most important files in one secure location. Access them wherever 
+       you need, share and collaborate with friends family,and <span style="white-space: nowrap;">co-workers.</span>
+      </p>
+      <button>
+        Get Started
+      </button>
 
-   <div class="body">
-     hihhhhhh
-   </div>
+      
+
+    </div>
+    
+     
+  </section>
  
   
   
 <!-- 
-  All your files in one secure location, accessible anywhere.
+  
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
-
-  Get Started
+  
+ 
 
   Access your files, anywhere
 
