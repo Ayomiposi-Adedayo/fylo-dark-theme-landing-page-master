@@ -10,7 +10,7 @@ html {
 
 @media screen and (min-width: 760px) {
     html {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
   
@@ -22,6 +22,7 @@ body {
     padding:0%;
     font-family:   "Open Sans", sans-serif;
     display: block;
+    ;
     
 }
 
@@ -376,23 +377,65 @@ h2 {
        max-width: 40%;
     }
     }
+    @media screen and (min-width: 760px) {
+        .productive-flex {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;
+            gap: 2%;
+            margin-top: 15%;
+            
+        }
+    }
     .stay-productive {
         display: block;
         max-width: 90%;
         margin: auto;
     }
+
+    @media screen and (min-width: 760px) {
+        .stay-productive {
+            display: block;
+            max-width: 40%;
+            margin: auto;
+        }
+    }
+
     .stay-productive2 {
-        display: block;
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         max-width: 90%;
         margin: auto;
+    }
+
+    
+    @media screen and (min-width: 760px) {
+        
+    .stay-productive2 {
+        display: flex;
+        flex-direction: column;
+        
+        max-width: 40%;
+        margin: auto;
+    }
     }
      
     .productive-img {
         max-width: 100%;
+    }
+    
+    @media screen and (min-width: 760px) {
+          
+    .productive-img {
+        max-width: 120%;
 
 
     }
+
+    }
+
+
 
     .productive-container {
         display:  block;
@@ -403,9 +446,36 @@ h2 {
 section>div> img {
         max-width: 100%;
 }
+@media screen and (min-width: 760px) {
+    h2.h2-productive-head {
+        width: 100%;
+        text-align: left;
+        margin: 0%;
+        margin-left: 0px;
+        font-size: 1.9em;
+    }
+}    
+
+.h2-productive-head {
+    width: 100%;
+    text-align: center;
+    margin-left: 10%;
+}
 
 .h2-productive {
     text-align: left;
+    margin-left: 0%;
+}
+
+@media screen and (min-width: 760px) {
+    
+.h2-productive {
+    width: 100%;
+    margin: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1rem;
+}
 }
 
 .h2-fylo {
@@ -435,11 +505,27 @@ section>div> img {
     
     
 }
+@media screen and (min-width: 760px) {
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15%;
+    flex-direction: row;
+    max-width: 90%;
+    margin-bottom: 0%;
+    gap: 2%;
+}
+    
+}
+
 
 .quotes {
     margin-left: 5%;
     align-self: flex-start;
-    max-width: 30px
+    max-width: 30px;
+    position: relative;
+    
 }
 
 .team-box1 {
@@ -461,6 +547,39 @@ section>div> img {
     margin-bottom: 0%;
     border: 1px solid rgba(255, 0, 0, 0);
     border-radius: 15px;
+}
+
+
+@media screen and (min-width: 760px) {
+    
+.team-box1 {
+    display: flex;
+    
+    max-width: 30%;
+ 
+    flex-direction: column;
+    padding: 2%;
+    padding-bottom: 0%;
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom: 10%;
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.last-team-box {
+    display: flex;
+    max-width: 30%;
+    flex-direction: column;
+    padding: 2%;
+    gap: auto;
+    padding-bottom: 0%;
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom: 10%;
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
 }
     
     
@@ -485,6 +604,31 @@ section>div> img {
     
 }
 
+@media screen and (min-width: 760px) {
+
+    
+.team-div1 {
+    font-size: 12px;
+    color: #dad8d8;
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 1%;
+    line-height: 1.4rem;
+    
+}
+.team-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0%;
+    margin-bottom: 10%;
+    
+    
+}
+}
+
 .team-img-box {
     max-width: 40px;
     max-height: 40px;
@@ -503,6 +647,7 @@ section>div> img {
     margin-left: 7%;
     line-height: 2rem;
 }
+
 .member-name {
     font-size: 14px;
     margin: 0%;
@@ -517,6 +662,103 @@ margin: 0%;
 padding:0%;
 text-align: left;
 }
+
+
+@media screen and (min-width: 760px) {
+
+    
+.team-img-box {
+    max-width: 40px;
+    max-height: 40px;
+   
+}
+
+
+.team-member{
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+    
+.member {
+    float: right;
+    height: fit-content;
+    margin-left: 0%;
+    width: 50px;
+    line-height: 1.8rem;
+}
+    
+.member-name {
+    font-size: 12px;
+     width: fit-content;
+    height: fit-content;
+    margin: 0%;
+    padding:0%;
+    text-align: left;
+    
+}
+
+.member-details {
+  
+    width: 200px;
+    line-height: 1rem;;
+    font-size: 12px;
+    margin: 0%;
+    padding:0%;
+    text-align: left;
+}
+}
+
+
+
+@media screen and (min-width: 760px) { 
+
+    .div-1 {
+        display: flex;
+        height: 40px;
+        width: 190px;
+        align-items: center;
+        margin-top: 5%;
+        
+    }
+    
+    .div-a {
+        flex-grow: 1;
+    }
+        
+    .div-b {
+        flex-grow: 3;
+        margin-left: 2%;
+    
+    }
+    
+    .div-h2 {
+        font-size: 12px;
+        line-height: 1rem;
+        margin: 0%;
+        margin-bottom: 4%;
+        padding: 0%;
+        text-align: left;
+    }
+    .div-p2 {
+        font-size: 10px;
+        line-height: 1rem;
+        margin: 0%;
+        padding: 0%;
+        text-align: left;
+        
+    }
+    
+    .team-mem {
+        max-width: 35px;
+        border-radius: 50px;
+    }
+        
+}
+
+
+
+
 
 .early-access {
     border: 1px solid rgba(255, 0, 0, 0);
@@ -534,12 +776,27 @@ text-align: left;
     margin-bottom: 0%;
     position: relative;
     bottom: -200px;
-    
-    
-    
-    
+    justify-content: center;
+    align-items: center;
 
 }
+
+@media screen and (min-width: 760px) {
+    .early-access {
+        border: 1px solid rgba(255, 0, 0, 0);
+        border-radius: 15px;
+        max-width: 70%;
+        align-items: center;
+        background-color: hsl(217, 28%, 15%);
+        position: relative;
+        bottom: -120px;
+        padding: 0%;
+        margin: auto;
+        
+    }
+    
+}
+ 
 .early-text {
     text-align: center;
     box-sizing: border-box;
@@ -549,16 +806,54 @@ text-align: left;
     color: #FFFFFF;
     
 }
+
+@media screen and (min-width: 760px) {
+
+    .early-text {
+        
+        font-size: 0.9rem;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 0, 0, 0);
+        padding:  0% 2%;
+        margin: 5% 0%;
+        color: whitesmoke;
+        margin-top: 2%;
+        
+    }
+    
+    h2.early-text {
+        text-align: center;
+        font-size: 1.5rem;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 0, 0, 0);
+        color: whitesmoke;
+        margin-bottom: 0%;
+        margin-top: 6%;
+        
+    }
+
+}
+
 .input-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 20px;
-    padding: auto;
-    justify-content: center;
-    align-content: center;
+    padding-left: 10%;
+    padding-right: auto;
+   
     
 }
+@media screen and (min-width: 760px) {
+    
+.input-container {
+    align-items: center;
+    display: flex;
+    width: 90%;
+    padding-left: 0%;
+    gap: 5%;
+    padding-bottom: 6%;
+    
+    
+}
+}
+
 
 .email-input {
     border: 1px solid rgba(255, 0, 0, 0);
@@ -566,8 +861,22 @@ text-align: left;
     border-radius: 25px;
     height:  46px;
     padding: 0% 10%;
-    width: 80%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin: 10% 0%;
+}
+@media screen and (min-width: 760px) {
+    
+.email-input {
+    display: inline;
+    border: 1px solid rgba(255, 0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 25px;
+    height:  46px;
+    padding: 0%;
+    width: 60%;
+    margin: 0%;
+    padding-left: 10%;
+}
 }
 
 .button-input {
@@ -575,11 +884,25 @@ text-align: left;
         border: 1px solid rgba(255, 0, 0, 0);
         border-radius: 25px;
         height: 48px;
-        width: 80%;
+        width: 90%;
         padding: 0%;
         font-size: 16px;
         margin-bottom: 0px;
+    }
         
+    @media screen and (min-width: 760px) {
+        
+.button-input {
+    display: inline;
+    background-image: linear-gradient(150deg, #65e2d9, 40%, #339ecc);
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 25px;
+    height: 48px;
+    width: 30%;
+    padding: 0%;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
     }
     button>a {
         text-decoration: none;
@@ -593,12 +916,26 @@ text-align: left;
         width: 100%;
         background-color: hsl(216, 53%, 9%);
         padding-top: 15%;
-        margin-bottom:  -10%;
-        
-        
-        
+        margin-bottom:  -25%;
         
     }
+    @media screen and (min-width: 760px) {
+        
+    footer {
+        color: #dad8d8;
+        font-size: 17px;
+        font-weight: 400;
+        
+        background-color: hsl(216, 53%, 9%);
+        padding-top: 15%;
+    
+        margin-bottom:  -12%;
+        
+    }
+    }
+        
+        
+        
     
     .footer-container {
         margin: auto 5%;
@@ -667,15 +1004,4 @@ text-align: left;
     .attribution {
         margin-bottom: 0%;
     }
-    
-
-    
-
-
-
-    
-
-
    
-   
-    
