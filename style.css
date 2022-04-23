@@ -92,7 +92,7 @@ header>div>div>img {
 }
 
 header>div>div>img:hover {
-    width: 12rem;
+    width: 10rem;
     cursor: pointer;
     
 
@@ -1078,9 +1078,9 @@ text-align: left;
         text-align: left;
         font-size: small;
         
-        
-        
     }
+        
+        
     .footer-flex2{
         text-align: left;
         padding-bottom: 0%;
@@ -1098,7 +1098,8 @@ text-align: left;
         bottom: -5rem;
         
     }
-    .footer-li:hover {
+
+    .hfooter-li:hover {
         font-weight: 600;
     }
     .attribution {
@@ -1434,10 +1435,13 @@ h2.early-text {
     padding-right: 0%;
     margin-right: 0%;
 }
-.footer-pp:hover {
-text-decoration: underline;
-cursor: pointer;
+}
 
+
+
+.h-footer-pp:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .footer-flex22 {
     text-align: left;
@@ -1446,11 +1450,13 @@ cursor: pointer;
     margin-bottom: 0%;
     font-size: .7rem;
 }
+
 .footer-flex22:hover {
     text-decoration: underline;
     cursor: pointer;
 
 }
+
 
 .footer-lii {
     list-style: none;
@@ -1465,9 +1471,7 @@ cursor: pointer;
 
 }
 
-    
 
-}
 
 .icon {
     display: flex;
@@ -1536,7 +1540,10 @@ cursor: pointer;
         padding-bottom: 0%;
         
     }
+    
+
+
+
+div>ul>li>a:hover {
+    font-weight: 600;
 }
-
-
-        
