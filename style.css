@@ -1106,7 +1106,8 @@ text-align: left;
         margin-bottom: 0%;
         
     }
-    a {
+     .footer-flex3:hover{
+         text-decoration: underline;
         
     }
 
