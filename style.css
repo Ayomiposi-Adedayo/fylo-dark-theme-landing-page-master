@@ -71,14 +71,30 @@ header {
 header>div>div>img {
     width: 80px;
     margin: auto;
+    
+}
+
+
+header>div>div>img:hover {
+    width: 90px;
+    cursor: pointer;
+    
 
 }
+
 
 
 @media screen and (min-width: 760px) {
     
 header>div>div>img {
     width: 12rem;
+
+}
+
+header>div>div>img:hover {
+    width: 12rem;
+    cursor: pointer;
+    
 
 }
 }
@@ -91,6 +107,12 @@ header>div>ul>li {
     color: #dad8d8;
     
 }
+
+
+header>div>ul>li:hover {
+    text-decoration: underline;
+}
+
 nav {
     width:auto;
 }
@@ -271,6 +293,12 @@ button {
      
     
 }
+button:hover {
+    background-image: linear-gradient(150deg, #80dbd5, 40%, #6bbbe9);
+    cursor: pointer;
+    
+
+}
 
 @media screen and (min-width: 760px) {
     
@@ -287,6 +315,13 @@ button {
      font-size: 0.8rem;
      
     
+}
+
+button:hover {
+    background-image: linear-gradient(150deg, #80dbd5, 40%, #6bbbe9);
+    cursor: pointer;
+    
+
 }
 
 }
@@ -502,10 +537,26 @@ section>div> img {
     width: max-content;
     
 }
+
+.h2-fylo:hover {
+color:  hsl(177, 84%, 95%);
+
+border-bottom: 2px solid hsl(177, 84%, 95%);
+    cursor: pointer;
+}
+
 .fylo-link {
     text-decoration: none;
     color:  hsl(176, 68%, 64%);
 }
+
+
+.fylo-link:hover {
+    text-decoration: none;
+    color:  hsl(177, 84%, 95%);
+    cursor: pointer;
+}
+
 
 .container2 {
     display: flex;
@@ -1047,6 +1098,9 @@ text-align: left;
         bottom: -5rem;
         
     }
+    .footer-li:hover {
+        font-weight: 600;
+    }
     .attribution {
         margin-bottom: 0%;
         
@@ -1380,14 +1434,24 @@ h2.early-text {
     padding-right: 0%;
     margin-right: 0%;
 }
+.footer-pp:hover {
+text-decoration: underline;
+cursor: pointer;
+
+}
 .footer-flex22 {
     text-align: left;
     display: inline;
     padding-bottom: 10%;
     margin-bottom: 0%;
     font-size: .7rem;
+}
+.footer-flex22:hover {
+    text-decoration: underline;
+    cursor: pointer;
 
 }
+
 .footer-lii {
     list-style: none;
     padding-top: 5%;
@@ -1400,6 +1464,8 @@ h2.early-text {
     top: -10%;
 
 }
+
+    
 
 }
 
@@ -1471,5 +1537,6 @@ h2.early-text {
         
     }
 }
-    
+
+
         
