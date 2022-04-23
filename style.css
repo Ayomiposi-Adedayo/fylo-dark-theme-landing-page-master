@@ -1446,8 +1446,15 @@ h2.early-text {
         
     }
     .footer-div {
+        margin: auto;
         max-width: 90%;
     }
-
+    .icon {
+        width: max-content;
+        margin: 0%;
+        padding: 0%;
+        margin: auto;
+    }
+    
 
         
