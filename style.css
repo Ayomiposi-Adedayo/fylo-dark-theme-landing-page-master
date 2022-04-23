@@ -1445,6 +1445,9 @@ h2.early-text {
         gap: 20%
         
     }
+    .footer-div {
+        max-width: 90%;
+    }
 
 
         
